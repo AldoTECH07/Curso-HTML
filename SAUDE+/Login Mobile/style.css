@@ -1,0 +1,342 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------CSS HEADER COMPLETO--------------*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    max-width: 430px;
+    width: 100%;
+    height: 932px;
+    border: 0.5px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hora {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.blocoCabecalho {
+    display: flex;
+    justify-content: center;
+    background: #005B96;
+
+    width: 414px;
+    height: 44px;
+    padding: 1px 8px 45px 8px;
+    align-items: center;
+}
+
+.inforTopo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 414px;
+    color: white;
+    height: 44px;
+    box-sizing: border-box;
+    pad: 0 8px;
+}
+
+.iconesTopoDireita {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.iconeRede {
+    width: 18px;
+    height: auto;
+}
+
+.iconeWifi {
+    width: 18px;
+    height: auto;
+}
+
+.iconeBateria {
+    width: 26px;
+    height: auto;
+}
+
+/*--------------CSS MAIN COMPLETO--------------*/
+
+.blocoDoCorpo {
+    height: 752px;
+    width: 430px;
+}
+
+.centralizarTexto {
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 33px;
+}
+
+.centralizarItems {
+    align-items: center;
+}
+
+.logoTexto {
+    color: #005B96;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.blocoDados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    max-width: 380px;
+    width: 90%;
+    height: 510px;
+    margin: auto;
+    
+    border-radius: 10px;
+    background: #005B96;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 510px;
+    width: 100%;
+    gap: 10px;
+}
+
+.texto-form-entrar {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    padding-left: 30px;
+    margin-top: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+
+.input-email-senha {
+    width: 90%;
+    max-width: 340px;
+    height: 50px;
+    box-sizing: border-box;
+
+    border: none;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+
+    padding-left: 14px;
+}
+
+.input-email-senha:hover {
+    background-color: #d1d1d1;
+}
+
+.placeholder-email-senha {
+    color: rgba(80, 79, 79, 0.80);
+
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.botao-checkbox {
+    width: 20px;
+    height: 20px;
+    
+    border: 1px solid #504F4F;
+    background: #FFF;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    padding-left: 30px;
+    
+}
+
+.texto-pequeno {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.button-entrar {    
+    display: flex;
+    width: 90%;
+    max-width: 340px;
+    box-sizing: border-box;
+    height: 80px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.button-entrar:hover {
+    background-color: #d1d1d1;
+}
+
+.texto-botao {
+    color: #005B96;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.espaco-botoes {
+    margin-bottom: 20px;
+}
+.espaco-cima {
+    margin-top: 20px;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 340px;
+    margin: 10px auto;
+
+}
+.divisor span {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+    padding: 0 16px;
+}
+
+.linha {
+  height: 2px;
+  background-color: white;
+  flex: 1;
+}
+
+.texto-cinza {
+    color: rgba(80, 79, 79, 0.80);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.texto-cadastrar {
+    color: #005B96;
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.texto-cadastrar:active {
+    color: #0099ff;
+}
+
+.espaco-cadastro {
+    padding-top: 80px;
+}
+
+.login-outra-forma {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn-outra-forma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    gap: 5px;
+    font-size: 0.6em;
+    background-color: white;
+    color: rgba(80, 79, 79, 0.80);
+    
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.login-outra-forma>.btn-outra-forma:hover {
+    background-color: #d1d1d1;
+}
+
+nav, a, p {
+    text-decoration: none;
+}
+
+/*---------------- CSS FOOTER ----------------*/
+
+.bloco-footer {
+    width: 430px;
+    height: 90px;
+    background: #005B96;
+
+    display: flex;                /* Ativa o flexbox */
+    justify-content: center;      /* Centraliza horizontalmente */
+    align-items: center;          /* Centraliza verticalmente */
+}
+
+.linha-comando-ios {
+    
+    width: 134px;
+    height: 5.038px;
+    border-radius: 100px;
+    background: #FFF;
+    margin-top: 72px;
+}
