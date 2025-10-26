@@ -11,7 +11,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 body {
@@ -39,14 +38,16 @@ body {
     padding: 2rem;
 }
 
+/* ======= ELEMENTOS INTERNOS ======= */
+
 .bloco-form {
     width: 90%;
     max-width: 620px;
+    min-width: 570px;
     padding: 3rem 1.5rem;
     background-color: var(--cor0);
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
-
 }
 
 .logo {
@@ -56,7 +57,6 @@ body {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     font-size: 2.2rem;
     font-weight: 600;
-
 }
 
 .texto-novo {
@@ -91,7 +91,6 @@ section {
     gap: 2rem;
 }
 
-
 section input {
     width: 99%;
     max-width: 540px;
@@ -106,10 +105,10 @@ section input {
 
 section input:hover {
     background-color: #d1d1d1;
-
 }
 
-#email, #password {
+#email,
+#password {
     padding-left: 22px;
     color: rgba(80, 79, 79, 0.80);
 }
@@ -131,7 +130,7 @@ section input:hover {
     justify-content: center;
 }
 
-.botao-entrar > button {
+.botao-entrar>button {
     width: 99%;
     max-width: 540px;
     height: 120px;
@@ -144,6 +143,23 @@ section input:hover {
 }
 
 .botao-entrar>button:hover {
+    background-color: #d1d1d1;
+}
+
+/* BOTÃO DA TELA DE CADASTRO */
+.botao-criar-conta {
+    width: 60%;
+    max-width: 280px;
+    height: 110px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.botao-criar-conta:hover {
     background-color: #d1d1d1;
 }
 
@@ -192,7 +208,6 @@ form a {
     justify-content: center;
     gap: 4rem;
     margin-top: 1.5rem;
-
 }
 
 .btn-outra-forma {
@@ -210,7 +225,6 @@ form a {
     cursor: pointer;
 }
 
-.login-outra-forma > .btn-outra-forma:hover {
+.login-outra-forma>.btn-outra-forma:hover {
     background-color: #d1d1d1;
 }
-
