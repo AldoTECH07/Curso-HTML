@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    
+    <header>
+        <h1>Café Dev</h1>
+        <h2>O combustível para o seu código</h2>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fazer Login</a>
+    </nav>
+    <main>
+        <div class="bloco-form">
+            <form>
+                <h3>Entre</h3>
+                <section id="input">
+                    <input type="email" name="email" id="email" placeholder="Nome" required>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                </section>
+                <div id="central">
+                    <div id="flex">
+                        <input type="checkbox" name="checar" id="checar">
+                        <p id="txt-pequeno">Manter conectado</p>
+                    </div>
+                    <a href="#" id="txt-pequeno">Esqueci minha senha</a>
+                </div>
+
+                <div id="entrar">
+                    <button>ENTRAR</button>
+                </div>
+
+                <div class="divisor">
+                    <div class="linha"></div>
+                    <span>OU</span>
+                    <div class="linha"></div>
+                </div>
+
+                <div class="login-outra-forma">
+                <button class="btn-outra-forma">
+                    <img id="img-pequena" src="imagens/google.svg" alt="google-icone">
+                    <span id="txt-pequeno">Entrar com Google</span>
+              </button>
+              <button class="btn-outra-forma">
+                    <img id="img-pequena" src="imagens/facebook.svg" alt="facebook-icone">
+                    <span id="txt-pequeno">Entrar com facebook</span>
+              </button>
+            </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Café Dev • Todos os direitos reservados</p>
+        <p>Desenvolvido com ☕ + 💻 + 🧠 por Aldo Oliveira</p>
+    </footer>
 </body>
 </html>
