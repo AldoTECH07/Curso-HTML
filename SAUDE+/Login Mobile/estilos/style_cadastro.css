@@ -1,0 +1,223 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------CSS HEADER COMPLETO--------------*/
+
+:root {
+    --cor0: #005B96;
+    --cor1: #0099ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: white;
+}
+
+.container {
+    max-width: 430px;
+    width: 100%;
+    height: 932px;
+    border: 0.5px solid black;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    /* 🔹 empurra header pro topo e footer pro fundo */
+}
+
+.hora {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.blocoCabecalho {
+    display: flex;
+    justify-content: center;
+    background: #005B96;
+
+    width: 414px;
+    height: 44px;
+    padding: 1px 8px 45px 8px;
+    align-items: center;
+}
+
+.inforTopo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 414px;
+    color: white;
+    height: 44px;
+    box-sizing: border-box;
+    pad: 0 8px;
+}
+
+.iconesTopoDireita {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.iconeRede {
+    width: 18px;
+    height: auto;
+}
+
+.iconeWifi {
+    width: 18px;
+    height: auto;
+}
+
+.iconeBateria {
+    width: 26px;
+    height: auto;
+}
+
+/*---------------- CSS MAIN ----------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+#logo {
+    padding-top: 30px;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--cor0);
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    width: 380px;
+    height: 588px;
+    background-color: var(--cor0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-height: 510px;
+}
+
+div > input, button {
+    font-size: 16px;
+    height: 50px;
+    width: 85%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+#txt-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 30px auto 5px 30px;
+    
+}
+
+#botao {
+    width: 174px;
+    height: 80px;
+    color: var(--cor0);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-size: 0.7em;
+    color: rgba(80, 79, 79, 0.80);
+}
+
+.txt-baixo {
+    font-size: 0.9em;
+    color: rgba(80, 79, 79, 0.80);
+}
+
+.txt-entrar {
+    color: var(--cor0);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.txt-entrar :active {
+    color: var(--cor1);
+}
+
+.txt-entrar:visited {
+    color: var(--cor1);
+}
+
+input:hover {
+    background-color: #d1d1d1;
+}
+button:hover {
+    background-color: #d1d1d1;
+}
+
+
+/*---------------- CSS FOOTER ----------------*/
+
+.bloco-footer {
+    width: 430px;
+    height: 90px;
+    background: #005B96;
+
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    bottom: 0;
+    
+}
+
+.linha-comando-ios {
+
+    width: 134px;
+    height: 5.038px;
+    border-radius: 100px;
+    background: #FFF;
+    margin-top: 72px;
+}
