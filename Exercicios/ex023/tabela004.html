@@ -40,15 +40,15 @@
     <table>
         <caption>Filmes Favoritos</caption>
         <thead>
-            <th>Grupo</th>
-            <th>Nomes</th>
-            <th colspan="3">Filmes</th>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
         </thead>
         
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
-                <td>Sabta Sousa</td>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Stella</td>
                 <td>Por Lugares Incríveis</td>
                 <td>Piratas do Caribe</td>
                 <td>Vingadores</td>
@@ -66,7 +66,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Aldo Oliveira</td>
                 <td>Interestelar</td>
                 <td>Harry Potter</td>
@@ -84,6 +84,12 @@
                 <td>Rambo</td>
                 <td>Toy Story</td>
             </tr>
+            <tfoot>
+                <tr>
+                    <th colspan="4" scope="row">Total</th>
+                    <td>1000</td>
+                </tr>
+            </tfoot>
         </tbody>
     </table>
 </body>
